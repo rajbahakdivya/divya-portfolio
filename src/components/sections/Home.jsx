@@ -9,11 +9,11 @@ export const Home = () => {
       {/* Left Image */}
       <div className="absolute top-0 left-0 h-full w-[25vw] max-w-[300px] hidden sm:block">
         <img
-          src="/images/left-image.jpg"
+          src={`${import.meta.env.BASE_URL}images/left-image.jpg`}
           alt="Left Image"
           className="h-full w-full object-cover shadow-lg aspect-square"
         />
-      </div>   
+      </div>
 
       {/* Center Content */}
       <RevealOnScroll>
