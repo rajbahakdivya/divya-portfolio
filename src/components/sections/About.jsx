@@ -92,14 +92,15 @@ export const About = () => {
                   <li>Managed driver and vehicle profiles with associations.</li>
                 </ul>
                 <div className="mt-4">
-                  <a
-                    href="/images/truneryIntern.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#4e342e] hover:text-[#d7a1a9] transition-all text-sm font-semibold border-b-2 border-transparent hover:border-[#d7a1a9]"
-                  >
-                    View Internship Certificate
-                  </a>
+                <a
+                   href="/images/truneryIntern.pdf"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   className="text-[#4e342e] hover:text-[#d7a1a9] transition-all text-sm font-semibold border-b-2 border-transparent hover:border-[#d7a1a9]"
+                >
+                    View Academic Certificate
+                </a>
+
                 </div>
               </div>
 
