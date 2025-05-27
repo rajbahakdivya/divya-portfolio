@@ -92,6 +92,7 @@ export const About = () => {
                   <li>Managed driver and vehicle profiles with associations.</li>
                 </ul>
                 <div className="mt-4">
+<<<<<<< HEAD
                 <a
                    href="/images/truneryIntern.pdf"
                    target="_blank"
@@ -101,6 +102,16 @@ export const About = () => {
                     View Academic Certificate
                 </a>
 
+=======
+                  <a
+                    href="/images/truneryIntern.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#4e342e] hover:text-[#d7a1a9] transition-all text-sm font-semibold border-b-2 border-transparent hover:border-[#d7a1a9]"
+                  >
+                    View Internship Certificate
+                  </a>
+>>>>>>> 2dfa36b (Update projects and added links)
                 </div>
               </div>
 
@@ -126,6 +137,7 @@ export const About = () => {
             </div>
           </div>
 
+<<<<<<< HEAD
           {/* Tech Skills Section */}
           <div>
             <h3 className="text-2xl font-semibold text-center text-[#4e342e] mb-6">Technical Skills</h3>
@@ -165,6 +177,51 @@ export const About = () => {
           </div>
 
         </div>
+=======
+
+         {/* Tech Skills Section */}
+<div>
+  <h3 className="text-2xl font-semibold text-center text-[#4e342e] mb-6">Technical Skills</h3>
+  
+  <ul className="space-y-6 max-w-3xl mx-auto">
+    <li>
+      <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 hover:shadow-md transition bg-[#f5f5dc] cursor-pointer">
+        <h4 className="text-xl font-bold mb-4 text-[#4e342e]">Frontend</h4>
+        <div className="flex flex-wrap gap-2">
+          {frontendSkills.map((tech, key) => (
+            <span
+              key={key}
+              className="bg-[#d2b9a3] text-[#4e342e] py-1 px-3 rounded-full text-sm hover:bg-[#d2b9a3]/20 hover:shadow transition-all"
+            >
+              {tech}
+            </span>
+          ))}
+        </div>
+      </div>
+    </li>
+
+    <li>
+      <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 hover:shadow-md transition bg-[#f5f5dc] cursor-pointer">
+        <h4 className="text-xl font-bold mb-4 text-[#4e342e]">Backend</h4>
+        <div className="flex flex-wrap gap-2">
+          {backendSkills.map((tech, key) => (
+            <span
+              key={key}
+              className="bg-[#d2b9a3] text-[#4e342e] py-1 px-3 rounded-full text-sm hover:bg-[#d2b9a3]/20 hover:shadow transition-all"
+            >
+              {tech}
+            </span>
+          ))}
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+
+
+</div>
+
+>>>>>>> 2dfa36b (Update projects and added links)
       </RevealOnScroll>
     </section>
   );

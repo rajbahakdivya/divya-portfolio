@@ -12,8 +12,11 @@ dist
 dist-ssr
 *.local
 
+<<<<<<< HEAD
 .env
 
+=======
+>>>>>>> 2dfa36b (Update projects and added links)
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

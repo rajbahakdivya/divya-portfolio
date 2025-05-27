@@ -138,7 +138,11 @@ export const Contact = () => {
               </h3>
               <div className="flex gap-6 text-2xl text-gray-800">
                 <a
+<<<<<<< HEAD
                   href="https://www.linkedin.com"
+=======
+                  href="https://www.linkedin.com/in/divya-rajbahak"
+>>>>>>> 2dfa36b (Update projects and added links)
                   target="_blank"
                   rel="noreferrer"
                   className="hover:text-[#ffcc80]"
@@ -146,7 +150,11 @@ export const Contact = () => {
                   <FaLinkedin />
                 </a>
                 <a
+<<<<<<< HEAD
                   href="https://www.github.com"
+=======
+                  href="https://github.com/rajbahakdivya"
+>>>>>>> 2dfa36b (Update projects and added links)
                   target="_blank"
                   rel="noreferrer"
                   className="hover:text-[#ffcc80]"

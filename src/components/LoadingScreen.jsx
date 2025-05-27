@@ -27,12 +27,20 @@ export const LoadingScreen = ({ onComplete }) => {
   return (
     <div className="fixed inset-0 z-50 bg-gradient-to-br from-[#f5f5dc] to-[#ffe0b2] flex flex-col items-center justify-center text-[#3e2723] p-4">
       
+<<<<<<< HEAD
       {/* Extra Large Round Profile Image */}
+=======
+      {/* Round Profile Image */}
+>>>>>>> 2dfa36b (Update projects and added links)
       <div className="mb-8">
       <img
   src={profileImage}
   alt="Divya"
+<<<<<<< HEAD
   className="w-96 h-96 rounded-full object-cover border-[6px] border-gradient-to-r from-[#d7a1a9] to-[#ffcc80] shadow-lg"
+=======
+  className="w-80 h-80 rounded-full object-cover border-[6px] border-gradient-to-r from-[#d7a1a9] to-[#ffcc80] shadow-lg"
+>>>>>>> 2dfa36b (Update projects and added links)
 />
 
 
@@ -40,7 +48,11 @@ export const LoadingScreen = ({ onComplete }) => {
       </div>
 
       {/* Animated Typing Text */}
+<<<<<<< HEAD
       <div className="text-5xl font-bold tracking-wide drop-shadow-lg text-center mb-4">
+=======
+      <div className="text-4xl font-bold tracking-wide drop-shadow-lg text-center mb-4">
+>>>>>>> 2dfa36b (Update projects and added links)
         {text}
         <span className="animate-blink ml-1">|</span>
       </div>
